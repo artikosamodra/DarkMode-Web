@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+nav {
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+.logo-style {
+  background: linear-gradient(45deg, rgb(208, 241, 117), #f18cd8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+}
+
+/* .menu{
+    margin: 0 2rem;
+} */
+
+a {
+  padding: 1rem 2.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(10, 10, 10);
+  transition: 0.7s linear;
+}
+
+.btn {
+  margin: 0 2rem;
+  background: linear-gradient(45deg, wheat, wheat, yellow);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.active{
+    background: linear-gradient(45deg, rgb(179, 238, 245), rgb(179, 238, 245), rgb(72, 80, 245));
+}
